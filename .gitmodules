@@ -1,0 +1,9 @@
+[submodule "kafka-docker"]
+	path = kafka-docker
+	url = https://github.com/wurstmeister/kafka-docker.git
+[submodule "librdkafka"]
+	path = librdkafka
+	url = https://github.com/edenhill/librdkafka.git
+[submodule "cppkafka"]
+	path = cppkafka
+	url = https://github.com/mfontanini/cppkafka.git
