@@ -2,6 +2,7 @@ Introduction
 ============  
 
 This project is to introduce how to setup kafka and some examples in Python and C++.  
+힌국어 설명은 [여기로](https://www.tigiminsight.com/kafka-setup-and-examples/)
 
 Initial Setup  
 ==============  
