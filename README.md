@@ -2,7 +2,6 @@ Introduction
 ============  
 
 This project is to introduce how to setup kafka and some examples in Python and C++.  
-힌국어 설명은 [여기로](https://www.tigiminsight.com/kafka-setup-and-examples/)
 
 Initial Setup  
 ==============  
@@ -23,7 +22,7 @@ Install Docker. Skip if you already have
 
 Clone source code  
 ```  
-    $ git clone --recursive git@10.10.10.224:data-science/kafka_setup_and_examples.git  
+    $ git clone --recursive https://github.com/supertigim/kafka_setup_and_examples.git  
     $ cd kafka_setup_and_examples
 ```
 
@@ -31,7 +30,7 @@ Setup Python environment
 ```  
     $ conda create -n kafka python=3  
     $ source activate kafka  
-    $(kafka) pip install requirements.txt  
+    $(kafka) pip install -r requirements.txt  
 ```  
 
 Kafka Installation  
@@ -159,6 +158,23 @@ Then build
     $ make producer 
     $ ./producer -b localhost:9092 -t test_topic
 
+```  
+
+## For JavaScript (NodeJS)
+
+Please make sure that NodeJS is already installed. 
+
+```  
+    # Install required modules  
+    $ npm install kafka-node optimist  
+```  
+
+```
+    # Run cosumer  
+    $ node consumer_nodejs.js  
+
+    # Run producer  
+    $ node producer_nodejs.js  
 ```  
 
 Reference  
